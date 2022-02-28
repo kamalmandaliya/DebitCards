@@ -1,0 +1,110 @@
+import {StyleSheet} from 'react-native';
+import {Colors} from '@theme';
+export default StyleSheet.create({
+  headerContainer: {
+    paddingRight: 24,
+    paddingLeft: 24,
+    marginBottom: 40,
+  },
+  header: {
+    paddingTop: 16,
+    paddingBottom: 16,
+    flexDirection: 'row',
+    height: 56,
+    justifyContent: 'space-between',
+  },
+  headerLogo: {
+    height: 25,
+    width: 26,
+    resizeMode: 'contain',
+    tintColor: Colors.primary,
+  },
+  headerBackButton: {
+    height: 20,
+    width: 20,
+    tintColor: Colors.white,
+  },
+  headerText: {
+    textAlignVertical: 'bottom',
+    fontSize: 24,
+    fontWeight: '900',
+    color: Colors.white,
+  },
+  container: {
+    flex: 1,
+    paddingRight: 24,
+    paddingLeft: 24,
+    borderTopLeftRadius: 24,
+    borderTopRightRadius: 24,
+    backgroundColor: Colors.white,
+  },
+  infoBlock: {
+    marginTop: 32,
+    flexDirection: 'row',
+  },
+  actionInfoIcon: {
+    height: 16,
+    width: 16,
+    resizeMode: 'contain',
+    tintColor: Colors.secondary,
+  },
+  infoText: {
+    textAlignVertical: 'center',
+    marginLeft: 12,
+    fontSize: 14,
+    color: Colors.black,
+  },
+  limitInputBlock: {
+    width: '100%',
+    marginTop: 18,
+    flexDirection: 'row',
+    alignItems: 'center',
+    paddingBottom: 12,
+    borderBottomWidth: 1,
+    borderBottomColor: Colors.borderColor,
+  },
+  currencyType: {
+    paddingRight: 12,
+    paddingLeft: 12,
+    paddingTop: 3,
+    paddingBottom: 3,
+    backgroundColor: Colors.primary,
+    borderRadius: 4,
+  },
+  currencyTypeText: {
+    fontSize: 13,
+    fontWeight: '900',
+    color: Colors.white,
+  },
+  currencyText: {
+    marginLeft: 10,
+    fontSize: 24,
+    fontWeight: '900',
+    color: Colors.black,
+  },
+  noteText: {
+    marginTop: 12,
+    marginBottom: 20,
+    fontSize: 13,
+    color: Colors.text,
+  },
+  buttonContainer: {
+    width: '100%',
+    paddingBottom: 24,
+    backgroundColor: Colors.white,
+  },
+  button: {
+    marginRight: 60,
+    marginLeft: 60,
+    height: 55,
+    alignItems: 'center',
+    justifyContent: 'center',
+    borderRadius: 30,
+    backgroundColor: Colors.primary,
+  },
+  buttonText: {
+    fontSize: 16,
+    fontWeight: '600',
+    color: Colors.white,
+  },
+});

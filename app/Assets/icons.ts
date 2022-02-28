@@ -1,0 +1,20 @@
+const Icons = {
+  card: require('./Icons/TabBar/Card.png'),
+  credit: require('./Icons/TabBar/Credit.png'),
+  home: require('./Icons/TabBar/Home.png'),
+  payments: require('./Icons/TabBar/Payments.png'),
+  profile: require('./Icons/TabBar/Profile.png'),
+  logo: require('./Icons/Logo.png'),
+  eyeShow: require('./Icons/EyeShow.png'),
+  eyeHide: require('./Icons/EyeHide.png'),
+  aspireLogo: require('./Icons/AspireLogo.png'),
+  visaLogo: require('./Icons/VisaLogo.png'),
+  topUp: require('./Icons/ActionItems/TopUp.png'),
+  weeklySpending: require('./Icons/ActionItems/WeeklySpending.png'),
+  freezeCard: require('./Icons/ActionItems/FreezeCard.png'),
+  getNewCard: require('./Icons/ActionItems/GetNewCard.png'),
+  deactivatedCard: require('./Icons/ActionItems/DeactivatedCard.png'),
+  backButton: require('./Icons/BackButton.png'),
+  weeklySpendingGeneric: require('./Icons/WeeklySpendingGeneric.png'),
+};
+export default Icons;

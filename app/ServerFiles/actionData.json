@@ -1,0 +1,36 @@
+{
+    "status": true,
+    "message": "Action data fetched successfully",
+    "actionData": [
+        {
+            "icon": "topUp",
+            "title": "Top-up account",
+            "description": "Deposit money to your account to use with card",
+            "isAction": true
+        },
+        {
+            "icon": "weeklySpending",
+            "title": "Weekly spending limit",
+            "description": "Your weekly spending limit is S$ 5, 000",
+            "isAction": false
+        },
+        {
+            "icon": "freezeCard",
+            "title": "Freeze card",
+            "description": "Your debit card is currently active",
+            "isAction": true
+        },
+        {
+            "icon": "getNewCard",
+            "title": "Get a new card",
+            "description": "This deactivates your current debit card",
+            "isAction": true
+        },
+        {
+            "icon": "deactivatedCard",
+            "title": "Deactivated cards",
+            "description": "Your previously deactivated cards",
+            "isAction": false
+        }
+    ]
+}
